@@ -10,6 +10,8 @@ public class PlayerAnimationController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Hello Fred was here!");
+
         rigidBody = GetComponent<Rigidbody>();
         animator = GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController>();   
